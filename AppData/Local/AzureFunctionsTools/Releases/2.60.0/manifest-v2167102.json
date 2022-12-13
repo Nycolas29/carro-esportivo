@@ -1,0 +1,28 @@
+{
+  "releaseName": "2.60.0",
+  "variants": {
+    "": {
+      "toolingSuffix": "",
+      "entryPointPath": "C:\\Users\\nycol\\AppData\\Local\\AzureFunctionsTools\\Releases\\2.60.0\\cli_x64\\func.exe",
+      "targetFramework": "netcoreapp2.1",
+      "extensionVersion": "~2",
+      "sdkPackage": "Microsoft.NET.Sdk.Functions",
+      "sdkPackageVersion": "1.0.31",
+      "templatesDirectory": "C:\\Users\\nycol\\AppData\\Local\\AzureFunctionsTools\\Releases\\2.60.0\\templates",
+      "windowsSiteConfig": {
+        "netFrameworkVersion": "v4.0"
+      },
+      "linuxSiteConfig": {
+        "linuxFxVersion": "DOTNET|2.2"
+      },
+      "serviceAppSettings": {
+        "FUNCTIONS_EXTENSION_VERSION": "~2",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet"
+      },
+      "localContainerBaseImage": "DOCKER|mcr.microsoft.com/azure-functions/dotnet:2.0-appservice",
+      "source": 0
+    }
+  },
+  "source": 0,
+  "cli": {}
+}

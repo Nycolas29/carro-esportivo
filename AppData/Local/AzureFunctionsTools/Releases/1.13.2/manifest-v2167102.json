@@ -1,0 +1,26 @@
+{
+  "releaseName": "1.13.2",
+  "variants": {
+    "": {
+      "toolingSuffix": "",
+      "entryPointPath": "C:\\Users\\nycol\\AppData\\Local\\AzureFunctionsTools\\Releases\\1.13.2\\cli_x64\\func.exe",
+      "targetFramework": "net48",
+      "extensionVersion": "~1",
+      "sdkPackage": "Microsoft.NET.Sdk.Functions",
+      "sdkPackageVersion": "1.0.29",
+      "templatesDirectory": "C:\\Users\\nycol\\AppData\\Local\\AzureFunctionsTools\\Releases\\1.13.2\\templates",
+      "windowsSiteConfig": {
+        "netFrameworkVersion": "v4.0"
+      },
+      "linuxSiteConfig": null,
+      "serviceAppSettings": {
+        "FUNCTIONS_EXTENSION_VERSION": "~1",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet"
+      },
+      "localContainerBaseImage": null,
+      "source": 0
+    }
+  },
+  "source": 0,
+  "cli": {}
+}
