@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faça agora seu formulário</title>
+    <link rel="stylesheet" href="logitn.css">
+    </head>
+    <body>
+        <div class="screen">
+            <div class="side-left">
+              <img src="https://carroarretado.com.br/wp-content/uploads/2021/12/373058EB-5F5C-4DE5-B83E-8E642DCCC507-730x486.jpeg" alt="Esportivos">
+            </Div>
+            <div class="side-right">
+        <p>Envie seu Formulário</p>
+
+        <form action="" method= "post" enctype="multipart/form-data">
+
+            <div>
+                <label for="">Nome</label>
+                <input Name="nome" required="required" placeholder="Digite seu nome" type="text">
+            </div>
+
+            <div>
+                <label for="">E-mail</label>
+                <input Name="email" required="required" placeholder="Digite seu e-mail" type="text">
+            </div>
+
+            <div>
+                <label for="">Selecione sua cidade</label>
+                <select required="required" name="cidade">
+                    <option selected="selected" value="">Selecione</option>
+                    <option value="1">Belo Horizonte</option>
+                    <option value="2">São Paulo</option>
+                    <option value="3">Rio de Janeiro</option>
+                    <option value="4">Curitiba</option>
+                </select>
+                </div>
+
+                <div>
+                    <label for="">Sua foto</label>
+                    <input required="required" name="foto" type="file">
+                </div>
+
+                <div>
+                    <p>Selecione seu sexo:</p>
+                    <label for="sexo1"><input name="sexo" id="sexo1" value="m" type="radio"> Masculino</label>
+                    <label for="sexo2"><input name="sexo" id="sexo2" value="f" type="radio"> Feminino</label>
+                </div>
+
+                <div>
+                    <label for="">Biografia</label><br>
+                    <textarea name="biografia" placeholder="Digite sua biografia" required="required" cols="30" rows="5"></textarea>
+                </div>
+
+                <div>
+                    <label for="">Senha</label>
+                    <input required="required" placeholder="Digite sua senha" name="senha" type="password">
+                </div>
+
+                <div>
+                    <label for="notícias">
+                    <input name="newsletter" id="notícias" type="checkbox">
+                    Deseja receber e-mails promocionais e notícias?</label>
+                </div>
+
+
+                <div>
+                    <button name="enviar" value="1" type="submit">Enviar</button>
+                </div>
+
+        </form>
+
+
+
+    </body>
+</html>
